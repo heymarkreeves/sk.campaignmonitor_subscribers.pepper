@@ -1,5 +1,6 @@
 **************************************************************************
 CM Subscribers v0.01 - 20080415
+CM Subscribers v0.02 - 20090127
 (c) Mark J. Reeves
 Website: http://www.slimkiwi.com
 E-mail: mjr@slimkiwi.com
@@ -43,3 +44,5 @@ You must set the following preferences:
 
 ~ 0.01 - 20080415
 - First public release.
+~ 0.02 - 20090127
+- Updated to match Campaign Monitor's API changes.
