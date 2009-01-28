@@ -14,7 +14,7 @@ $installPepper = "SK_CMSubscribers";
 
 class SK_CMSubscribers extends Pepper
 {
-	var $version    = 2; // Displays as 0.01
+	var $version    = 2; // Displays as 0.02
 	var $info       = array
 	(
 	    'pepperName'    => 'CM Subscribers',
