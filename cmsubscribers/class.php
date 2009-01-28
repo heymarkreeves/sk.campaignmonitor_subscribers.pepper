@@ -14,12 +14,12 @@ $installPepper = "SK_CMSubscribers";
 
 class SK_CMSubscribers extends Pepper
 {
-	var $version    = 1; // Displays as 0.01
+	var $version    = 2; // Displays as 0.01
 	var $info       = array
 	(
 	    'pepperName'    => 'CM Subscribers',
 	    'pepperUrl'     => 'http://www.slimkiwi.com/pepper',
-	    'pepperDesc'    => 'The CM Subscribers Pepper displays your Campaign Monitor email subscribers over the past 24 hours.',
+	    'pepperDesc'    => 'The CM Subscribers Pepper displays your Campaign Monitor email subscribers over the past 24 hours. Updated for the new CM API.',
 	    'developerName' => 'Mark J. Reeves',
 	    'developerUrl'  => 'http://www.slimkiwi.com/'
 	);
