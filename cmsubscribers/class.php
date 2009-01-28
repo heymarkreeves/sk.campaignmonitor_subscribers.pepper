@@ -141,7 +141,9 @@ HERE;
 			array('value'=>'Date','class'=>'')
 		);
 		
-		$Host = 'app.campaignmonitor.com';
+		/* NEW: $url = 'http://api.createsend.com/api/api.asmx' */
+		//$Host = 'app.campaignmonitor.com';
+		$Host = 'api.createsend.com';
 		$ApiKey=$this->prefs['apiKey'];
 		$ListID=$this->prefs['listId'];
 		// For testing:
@@ -149,6 +151,7 @@ HERE;
 		$UnixDate=time()-(86400);
 		$Date=date('Y-m-d',$UnixDate).'%20'.date('H:i:s');
 
+		//$url = 'http://' . $Host . '/api/api.asmx/Subscribers.GetActive';
 		$url = 'http://' . $Host . '/api/api.asmx/Subscribers.GetActive';
 		$params =	'ApiKey=' . $ApiKey .
 					'&ListId=' . $ListID .
